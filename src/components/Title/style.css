@@ -1,3 +1,7 @@
+/* @font-face{
+  src: url("https://fonts.googleapis.com/css?family=Press+Start+2P ");
+} */
+
 .title {
   width: 100%;
   text-align: center;
@@ -5,4 +9,5 @@
   text-decoration: underline;
   color: #2A77AE;
   margin-bottom: 50px;
+  font-family: 'Press Start 2P', cursive;
 }
