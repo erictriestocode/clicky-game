@@ -13,7 +13,7 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: black;
 }
 .card > .img-container > img {
   width: 100%
@@ -34,14 +34,13 @@
 }
 
 .card > .remove {
-  color: #ffee02;
+  color: #ff9102;
   font-size: 14px;
   position: absolute;
   top: 20px;
   right: 5px;
   cursor: pointer;
   font-family: 'Press Start 2P', cursive;
-
 }
 
 .card > .remove:hover {
