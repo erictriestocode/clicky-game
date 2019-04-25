@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 // TODO: Add Styles
 
-function NavBar(props) {
+function Scoreboard(props) {
     return (
         <nav className="navbar">
             <ul>
@@ -15,4 +15,4 @@ function NavBar(props) {
     )
 }
 
-export default NavBar;
+export default Scoreboard;
