@@ -3,12 +3,13 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import ScoreBoard from "./components/Scoreboard"; // Added my navbar component
-import friends from "./friends.json";
+import friends from "./friends.json";  // I left this friends, I know. I'll switch this eventually.
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the friends json array(I know, gotta change, )
   state = {
     friends
+    // I think I need to add the things such as score, top score, etc, here?
   };
 
   removeFriend = id => {
@@ -19,19 +20,20 @@ class App extends Component {
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
+  // Obviously have to change this
   render() {
     return (
       <Wrapper>
         <Title>Star Wars Clicky Game!</Title>
         {this.state.friends.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
+            removeFriend={this.removeFriend} // Needs to be removed/changed to randomizing function
             id={friend.id}
             key={friend.id}
-            name={friend.name}
+            name={friend.name} // Legacy from imported code
             image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+            occupation={friend.occupation} // Legacy from imported code
+            location={friend.location} // Legacy from imported code
           />
         ))}
       </Wrapper>
