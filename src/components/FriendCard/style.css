@@ -22,7 +22,7 @@
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 15px;
+  font-size: 1px;
 }
 
 .card > .content > ul {
@@ -34,12 +34,14 @@
 }
 
 .card > .remove {
-  color: #ff1744;
-  font-size: 48px;
+  color: #ffee02;
+  font-size: 14px;
   position: absolute;
-  top: -20px;
+  top: 20px;
   right: 5px;
   cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .card > .remove:hover {
